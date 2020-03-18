@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: nettyDemo
+  aop:
+    proxy-target-class: true
+
+server:
+  port: 1111
+
+logging:
+  config: classpath:logback-spring.xml
+  path: /home/zhu/liang/logs
+
+# files loading ...
+netty:
+  file:
+    path: d:\
+    port: 3456
+
+# config center ...
+config:
+  name: /nettyDemo
+  address: "00.00.00.00"
+  port: 1111
+
+
+# zookeeper ...
+zookeeper:
+  address: 192.168.140.135:2181
+  timeout: 20000
+
+
+

@@ -1,0 +1,83 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zhu.liang.configcenter.ConfigProperties",
+      "name": "config",
+      "type": "com.zhu.liang.configcenter.ConfigProperties"
+    },
+    {
+      "sourceType": "com.zhu.liang.loadfile.NettyFileProperties",
+      "name": "netty.file",
+      "type": "com.zhu.liang.loadfile.NettyFileProperties"
+    },
+    {
+      "sourceType": "com.zhu.liang.configcenter.ZKWatcher",
+      "name": "zookeeper",
+      "type": "com.zhu.liang.configcenter.ZKWatcher"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zhu.liang.configcenter.ConfigProperties",
+      "name": "config.address",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhu.liang.configcenter.ConfigProperties",
+      "name": "config.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhu.liang.configcenter.ConfigProperties",
+      "name": "config.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zhu.liang.configcenter.ConfigProperties",
+      "name": "config.test",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhu.liang.loadfile.NettyFileProperties",
+      "name": "netty.file.bind-ip",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhu.liang.loadfile.NettyFileProperties",
+      "name": "netty.file.boss-threads",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zhu.liang.loadfile.NettyFileProperties",
+      "name": "netty.file.path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhu.liang.loadfile.NettyFileProperties",
+      "name": "netty.file.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zhu.liang.loadfile.NettyFileProperties",
+      "name": "netty.file.work-threads",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zhu.liang.configcenter.ZKWatcher",
+      "name": "zookeeper.address",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhu.liang.configcenter.ZKWatcher",
+      "defaultValue": 0,
+      "name": "zookeeper.timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zhu.liang.configcenter.ZKWatcher",
+      "name": "zookeeper.zoo-keeper",
+      "type": "org.apache.zookeeper.ZooKeeper"
+    }
+  ]
+}
